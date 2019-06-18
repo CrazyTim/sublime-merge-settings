@@ -1,4 +1,4 @@
 // Settings in here override those in "Default/Commit Message.sublime-settings"
 {
-"dictionary": "Packages/Language - English/en_US.dic"
+	"dictionary": "Packages/User/en_AU.dic"
 }
