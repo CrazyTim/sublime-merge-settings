@@ -1,3 +1,3 @@
 # My Sublime Merge Settings
 
-**Windows:** `%appdata%\Sublime Merge\Packages\`
+**Windows:** `%AppData%\Sublime Merge\Packages\User\`
