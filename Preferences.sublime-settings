@@ -45,7 +45,9 @@
 		"guid",
 		"rollback",
 		"intellisense",
-		"dialogs"
+		"dialogs",
+		"regex",
+		"regexp"
 	],
 	"expand_merge_commits_by_default": true,
 	"font_size": 10,
