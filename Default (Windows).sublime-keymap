@@ -17,4 +17,8 @@
     "command": "move_commit",
     "args": { "commit": "$commit", "down": true },
   },
+  { // edit commit comment
+    "keys": ["ctrl+r"],
+    "command": "edit_commit",
+  },
 ]
