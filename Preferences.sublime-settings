@@ -47,7 +47,11 @@
 		"intellisense",
 		"dialogs",
 		"regex",
-		"regexp"
+		"regexp",
+		"subfolder",
+		"markup",
+		"css",
+		"color"
 	],
 	"expand_merge_commits_by_default": true,
 	"font_size": 10,
