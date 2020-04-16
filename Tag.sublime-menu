@@ -1,0 +1,8 @@
+[
+    { "caption": "-", "id": "end" },
+    {
+        "caption": "Delete $tag_name from origin",
+        "command": "git",
+        "args": {"prompt": true, "argv": ["push", "--delete", "origin", "$tag_name"]},
+    },
+]
