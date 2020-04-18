@@ -1,0 +1,8 @@
+[
+  { "caption": "-", "id": "end" },
+  {
+    "caption": "Cherry Pick (Don't Commit)",
+    "command": "git",
+    "args": {"argv": ["cherry-pick", "--no-commit", "$commit"]},
+  },
+]
