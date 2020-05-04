@@ -51,7 +51,9 @@
 		"subfolder",
 		"markup",
 		"css",
-		"color"
+		"color",
+		"colored",
+		"colors"
 	],
 	"expand_merge_commits_by_default": true,
 	"font_size": 10,
