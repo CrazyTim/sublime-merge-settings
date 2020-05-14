@@ -21,4 +21,9 @@
     "keys": ["ctrl+r"],
     "command": "edit_commit",
   },
+  { // open in sublime
+    "keys": ["ctrl+e"],
+    "command": "open_dir_in_sublime_text",
+    "args": { "dir": "$working_dir" }
+  },
 ]
