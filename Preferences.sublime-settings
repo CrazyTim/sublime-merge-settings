@@ -60,5 +60,6 @@
 	"hide_menu": true,
 	"tab_size": 2,
 	"theme": "Merge Dark.sublime-theme",
-	"translate_tabs_to_spaces": true
+	"translate_tabs_to_spaces": true,
+	"hardware_acceleration": "opengl"
 }
