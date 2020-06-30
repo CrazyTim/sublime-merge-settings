@@ -1,0 +1,33 @@
+{
+
+    "variables":
+    {
+        "dark_color": "rgb(100, 100, 100)",
+    },
+
+    "rules":
+    [
+
+        { // Commit author label
+            "class": "author_label",
+            "fg": "var(dark_color)",
+        },
+
+        { // Commit time label
+            "class": "time_label",
+            "fg": "var(dark_color)",
+        },
+
+        { // Commit row
+            "class": "commit_summary_control",
+            "content_margin" : [5,4,5,4],
+        },
+
+        { // Scroll bars
+            "class": "scroll_track_control",
+            "content_margin": 4,
+        },
+
+    ]
+
+}
