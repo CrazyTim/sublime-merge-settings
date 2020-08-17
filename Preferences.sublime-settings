@@ -6,4 +6,7 @@
   "theme": "Merge Dark.sublime-theme",
   "translate_tabs_to_spaces": true,
   "hardware_acceleration": "opengl",
+	"side_bar_layout": "locations_as_column",
+	"diff_style": "auto",
+  "always_show_command_status": false,
 }
