@@ -2,46 +2,46 @@
 
   // File history
   {
-    "keys": ["ctrl+p"],
+    "keys": ["super+p"],
     "command": "show_command_palette", "args": {"command": "file_history"},
   },
 
   // Stash (disable default - I often accidently stash, thinking I am saving in another window)
   {
-    "keys": ["ctrl+s"],
+    "keys": ["super+s"],
     "command": "",
   },
 
   // Move commit up
   {
-    "keys": ["ctrl+shift+up"],
+    "keys": ["alt+up"],
     "command": "move_commit",
     "args": { "commit": "$commit", "down": false },
   },
 
   // Move commit down
   {
-    "keys": ["ctrl+shift+down"],
+    "keys": ["alt+down"],
     "command": "move_commit",
     "args": { "commit": "$commit", "down": true },
   },
 
   // Edit commit comment
   {
-    "keys": ["ctrl+r"],
+    "keys": ["super+r"],
     "command": "edit_commit",
   },
 
   // Open in sublime
   {
-    "keys": ["ctrl+e"],
+    "keys": ["super+e"],
     "command": "open_dir_in_sublime_text",
     "args": { "dir": "$working_dir" },
   },
 
   // Word wrap
   {
-    "keys": ["ctrl+w"],
+    "keys": ["super+w"],
     "command": "toggle_setting",
     "args": { "setting": "word_wrap" },
   },
