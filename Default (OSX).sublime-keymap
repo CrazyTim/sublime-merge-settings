@@ -1,12 +1,12 @@
 [
 
-  // File history
+  // File history (align with chrome and vscode)
   {
     "keys": ["super+p"],
     "command": "show_command_palette", "args": {"command": "file_history"},
   },
 
-  // Stash (disable default - I often accidently stash, thinking I am saving in another window)
+  // Stash (disable default - I often accidently stash when I want to save, thinking focus is on another window)
   {
     "keys": ["super+s"],
     "command": "",
@@ -44,6 +44,17 @@
     "keys": ["super+w"],
     "command": "toggle_setting",
     "args": { "setting": "word_wrap" },
+  },
+
+  { // Show command palette (align with sublime text, chrome, vscode)
+    "keys": ["super+shift+p"],
+    "command": "show_command_palette"
+  },
+
+  // Open recent (align with vscode)
+  {
+    "keys": ["control+r"],
+    "command": "quick_switch_repository",
   },
 
 ]
