@@ -63,7 +63,7 @@
     "concat",
 	],
   "expand_merge_commits_by_default": true,
-  "font_size": 10,
+  "font_size": 12,
   "hide_menu": true,
   "tab_size": 2,
   "theme": "Merge Dark.sublime-theme",
@@ -72,4 +72,6 @@
 	"side_bar_layout": "locations_as_column",
 	"diff_style": "auto",
   "always_show_command_status": false,
+  "git_binary": "bundled",
+  "update_check": true,
 }
