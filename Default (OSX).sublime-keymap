@@ -1,5 +1,4 @@
 [
-
   // File history (align with chrome and vscode)
   {
     "keys": ["super+p"],
@@ -39,7 +38,8 @@
     "args": { "dir": "$working_dir" },
   },
 
-  { // Show command palette (align with sublime text, chrome, vscode)
+  // Show command palette (align with sublime text, chrome, vscode)
+  {
     "keys": ["super+shift+p"],
     "command": "show_command_palette"
   },
@@ -50,4 +50,15 @@
     "command": "quick_switch_repository",
   },
 
+  // Go to child commit (very useful)
+  {
+    "keys": ["super+up"],
+    "command": "navigate_to_child",
+  },
+
+  // Go to parent commit (very useful)
+  {
+    "keys": ["super+down"],
+    "command": "navigate_to_parent",
+  },
 ]
