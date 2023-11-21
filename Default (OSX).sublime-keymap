@@ -39,13 +39,6 @@
     "args": { "dir": "$working_dir" },
   },
 
-  // Word wrap
-  {
-    "keys": ["super+w"],
-    "command": "toggle_setting",
-    "args": { "setting": "word_wrap" },
-  },
-
   { // Show command palette (align with sublime text, chrome, vscode)
     "keys": ["super+shift+p"],
     "command": "show_command_palette"
