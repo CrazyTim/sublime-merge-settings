@@ -85,4 +85,5 @@
   "always_show_command_status": false,
   "git_binary": "bundled",
   "update_check": true,
+  "ensure_newline_at_eof_on_save": false,
 }
